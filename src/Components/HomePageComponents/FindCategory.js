@@ -22,13 +22,15 @@ const FindCategory = () => {
                     <h4 className='text-2xl'>Find best quality products at Goenkas Fashion Stores</h4>
                 </p>
 
-                <button onClick={() => filterResult('Womans')} class=" mr-6 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow"> Woman's </button>
-                <button onClick={() => filterResult('Indian')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Indian </button>
-                <button onClick={() => filterResult('Kids')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Kids </button>
-                <button onClick={() => filterResult('Western')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Western </button>
-                <button onClick={() => filterResult('Jeans')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Jean's </button>
-                <button onClick={() => filterResult('Formal')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Formal </button>
-                <button onClick={() => filterResult('Party')} class=" mr-7 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow"> Party Wear </button>
+               <div className=''>
+               <button onClick={() => filterResult('Womans')} class=" mr-6 bg-white text-black  font-semibold py-3 px-4 border border-gray-400 rounded shadow"> Woman's </button>
+                <button onClick={() => filterResult('Indian')} class=" mr-6 bg-white text-black  font-semibold py-3 px-6 border border-gray-400 rounded shadow">Indian </button>
+                <button onClick={() => filterResult('Kids')} class=" mr-6 bg-white text-black  font-semibold py-3 px-8 border border-gray-400 rounded shadow">Kids </button>
+                <button onClick={() => filterResult('Western')} class=" mr-6 bg-white text-black  font-semibold py-3 px-5 border border-gray-400 rounded shadow">Western </button>
+                <button onClick={() => filterResult('Jeans')} class=" mr-6 bg-white text-black  font-semibold py-3 px-7 border border-gray-400 rounded shadow">Jeans </button>
+                <button onClick={() => filterResult('Formal')} class=" mr-6 bg-white text-black  font-semibold py-3 px-6 border border-gray-400 rounded shadow">Formal </button>
+                <button onClick={() => filterResult('Party')} class=" mr-6 bg-white text-black  font-semibold py-3 px-2 border border-gray-400 rounded shadow"> Party Wear </button>
+               </div>
 
 
             </div>
@@ -36,7 +38,7 @@ const FindCategory = () => {
             {
                 details.map(detail => <div >
                     <div >
-                        <div >
+                        <div>
 
                             <img src={detail.img} alt=" random imgee" class="w-full object-cover object-center rounded-lg shadow-md" />
 

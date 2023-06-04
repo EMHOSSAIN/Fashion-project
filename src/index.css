@@ -111,9 +111,9 @@ code {
     margin-top: 27px;
   }
   .photo.five {
-    grid-column: 10;
-    grid-row: 2.5;
-    margin-top: 38px;
+   display: none;
+   overflow: hidden;
+    
   }
   .hero{
     margin-right: 10px;
@@ -121,6 +121,8 @@ code {
   .photos{
    margin-left: -20px;
   }
+
+ 
 
  
   }
